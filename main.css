@@ -1,0 +1,55 @@
+.navbar{
+    background-color: rgb(196, 179, 179);
+}
+
+.section-title{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav .nav-link.active{
+    background-color: rgb(149, 90, 90);
+}
+
+.nav .nav-link,
+.navbar-brand{
+    color:#090909  
+}
+
+.navbar-toggler{
+    background-color: rgb(160, 157, 157);
+}
+
+
+#sobre-a-loja{
+    background-color:rgb(192, 162, 162);
+}
+
+#promocoes{
+    background-color:rgb(192, 162, 162);
+}
+
+h2{
+    font-size: 50px;
+}
+
+nav button{
+    background-color: black;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+    
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+img button {
+    display: block;
+    padding-bottom: 32px; /* Espaço entre as imagens */
+}
+

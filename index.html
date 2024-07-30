@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Moonrocks&family=Space+Grotesk:wght@300..700&family=Trade+Winds&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Loja de calçados</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand fs-1 section-title">PR - SHOES</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block text-center d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link active" href="#sobre-a-loja">
+                            <i class="bi bi-house-fill"></i>
+                            Sobre a loja</a>
+                    </li>
+                    <li class="nav-item fw-bold ">
+                        <a class="nav-link" href="#produtos">
+                            <i class="bi bi-bicycle"></i>
+                            Produtos</a>
+                    </li>
+                    <li class="nav-item fw-bold ">
+                        <a class="nav-link" href="#promocoes">
+                            <i class="bi bi-coin"></i>
+                            Promoções</a>
+                    </li>
+                    <li class="nav-item fw-bold ">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-fill"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section class="pt-5 pb-5" id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="container">
+                        
+                        <div class="row">
+                            
+                            <div class="col-md-8">
+                                
+                                <div class="carousel-item active">
+                                    <img class="w-100" src="https://media.istockphoto.com/id/1152527286/pt/foto/boutique-shoes-in-a-store.webp?s=2048x2048&w=is&k=20&c=3DTc4p7fF-A29eC2_hjGASDTxkqzWsMrCV8a7xI_L84=" class="d-block w-100 rounded" alt="Salão do restaurante"> <!--  w-100(determina o tamanho da imagem) e as imagens terao o display block // ROUNDED(border radius bootstrap)-->
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="w-100" src="https://media.istockphoto.com/id/518733931/pt/foto/interior-de-loja-de-sapato-na-moderno-centro-comercial-europeia.webp?s=2048x2048&w=is&k=20&c=RGE67pzz8LDvXhXoO29zLxMwS5eCyEckKJ9m0XsrdIw="> <!--  w-100(determina o tamanho da imagem) e as imagens terao o display block // ROUNDED(border radius bootstrap)-->
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="w-100" src="https://media.istockphoto.com/id/922448320/pt/foto/image-of-sport-colorful-shoes-on-showcase.webp?s=2048x2048&w=is&k=20&c=6YocYP-wIsQK-OZH1eTjKQhTUDPAUXMbHs89zJlKc7g=" class="d-block w-100 rounded" alt="Salão do restaurante"> <!--  w-100(determina o tamanho da imagem) e as imagens terao o display block // ROUNDED(border radius bootstrap)-->
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-slide="prev" data-bs-target="#carousel">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-slide="prev" data-bs-target="#carousel">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0">
+                                    </button>
+                                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1">
+                                        
+                                    </button>
+                                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2">
+                                        
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 ps-5">
+                                <h2 class="section-title">História <span class="text-colored">da loja</span></h2> <!-- section-title (classe que determina o font-family no CSS)-->
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus fuga, harum fugiat nam culpa repudiandae consequuntur et facere officia quos! Minus, libero deleniti sit molestias possimus velit laborum accusamus dolores!</p>
+                                <h3 class="section-title"> Sobre o espaço</span></h3><!-- section-title (classe que determina o font-family no CSS)-->
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis sunt aliquid fuga accusantium rem natus ipsam quisquam incidunt iure, provident optio quam, aperiam quasi? Perferendis delectus vel veniam quod ab.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-11">
+                        <h2 class="section-title text-center pb-5">Produtos</h2>
+                    </div>
+                </div>
+                <nav class="nav nav-tabs fw-bold mb-5">
+                    <button id="botao" data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Calçados masculinos</button>
+                    <button id="botao" data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Calçados femininos</button>
+                    <button id="botao" data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Calçados infântis</button>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="aba1">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card mb-5">
+                                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/06b754f8-09d3-4a15-a459-e37e955d6d08/AIR+MAX+TW.png" alt="">
+                                    <div class="card-body">
+                                        <h4>Nike Air Max TW</h4>
+                                        <p>159,99 €</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a4114e49-2fe9-40a9-b20b-fd960432d780/W+NIKE+DUNK+LOW+NEXT+NATURE.png" alt="">
+                                    <div class="card-body">
+                                        <h4>Nike Dunk Low</h4>
+                                        <p>169,99 €</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9c20500a-7d63-488e-85ef-0dca6903f62a/W+NIKE+AIR+MAX+1.png" alt="">
+                                    <div class="card-body">
+                                        <h4>Nike Air Max 1</h4>
+                                        <p>179,99 €</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://media.istockphoto.com/id/460247427/pt/foto/homem-negro-arranque-com-barra-de-cinzento.webp?s=2048x2048&w=is&k=20&c=l3sz6nn-1sjBUcOQk-orrf38E6-CNv_y0MKpfNlNwOI=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://media.istockphoto.com/id/460247427/pt/foto/homem-negro-arranque-com-barra-de-cinzento.webp?s=2048x2048&w=is&k=20&c=l3sz6nn-1sjBUcOQk-orrf38E6-CNv_y0MKpfNlNwOI=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://media.istockphoto.com/id/460247427/pt/foto/homem-negro-arranque-com-barra-de-cinzento.webp?s=2048x2048&w=is&k=20&c=l3sz6nn-1sjBUcOQk-orrf38E6-CNv_y0MKpfNlNwOI=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane" id="aba2">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card mb-5">
+                                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f8247522-f25c-49de-848f-55527c99a753/NIKE+CORTEZ.png" alt="">
+                                    <div class="card-body">
+                                        <h4>Nike Cortez Textile</h4>
+                                        <p>89,90 €</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/25999e5c-d78f-47a5-ab81-d3175bfed977/WMNS+AIR+JORDAN+1+LOW.png" alt="">
+                                    <div class="card-body">
+                                        <h4>Air Jordan 1 Low</h4>
+                                        <p>129,99 €</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/127a2c53-06e3-4ed9-b859-06b5feb5b199/W+AIR+FORCE+1+%2707+NN.png" alt="">
+                                    <div class="card-body">
+                                        <h4>Nike Air Force 1 '07 Next Nature</h4>
+                                        <p>129,99 €</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://media.istockphoto.com/id/465388887/pt/foto/sapato-elegante-vermelho-isolado-no-branco.webp?s=2048x2048&w=is&k=20&c=lM_qSy2cp4xGn5uROXRFaKdc-aMnXgs1u34IiOS3fCA=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://media.istockphoto.com/id/465388887/pt/foto/sapato-elegante-vermelho-isolado-no-branco.webp?s=2048x2048&w=is&k=20&c=lM_qSy2cp4xGn5uROXRFaKdc-aMnXgs1u34IiOS3fCA=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://media.istockphoto.com/id/465388887/pt/foto/sapato-elegante-vermelho-isolado-no-branco.webp?s=2048x2048&w=is&k=20&c=lM_qSy2cp4xGn5uROXRFaKdc-aMnXgs1u34IiOS3fCA=" alt="">
+                                    <div class="card-body">
+                                        <h4>Nike Alphafly 3 Electric</h4>
+                                        <p>Sapatilhas de competição para estrada para homem
+                                            324,99 €</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            <div class="tab-content">
+                    <div class="tab-pane" id="aba3">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card mb-5">
+                                    <img src="https://media.istockphoto.com/id/160478731/pt/foto/pequenas-sapatinho-de-azul.webp?s=2048x2048&w=is&k=20&c=gpq8IDwlF_RaAmSNIY3kvEky8cIwG4Vk3Ci1I6WEjn8=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://media.istockphoto.com/id/160478731/pt/foto/pequenas-sapatinho-de-azul.webp?s=2048x2048&w=is&k=20&c=gpq8IDwlF_RaAmSNIY3kvEky8cIwG4Vk3Ci1I6WEjn8=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://media.istockphoto.com/id/160478731/pt/foto/pequenas-sapatinho-de-azul.webp?s=2048x2048&w=is&k=20&c=gpq8IDwlF_RaAmSNIY3kvEky8cIwG4Vk3Ci1I6WEjn8=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://media.istockphoto.com/id/160478731/pt/foto/pequenas-sapatinho-de-azul.webp?s=2048x2048&w=is&k=20&c=gpq8IDwlF_RaAmSNIY3kvEky8cIwG4Vk3Ci1I6WEjn8=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://media.istockphoto.com/id/160478731/pt/foto/pequenas-sapatinho-de-azul.webp?s=2048x2048&w=is&k=20&c=gpq8IDwlF_RaAmSNIY3kvEky8cIwG4Vk3Ci1I6WEjn8=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="https://media.istockphoto.com/id/160478731/pt/foto/pequenas-sapatinho-de-azul.webp?s=2048x2048&w=is&k=20&c=gpq8IDwlF_RaAmSNIY3kvEky8cIwG4Vk3Ci1I6WEjn8=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promocoes">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-11">
+                        <h2 class="section-title text-center pt-5 pb-5">Promoções</h2>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card mb-5">
+                                    <img  src="https://cdn.pixabay.com/photo/2013/07/12/18/20/shoes-153310_1280.png" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://cdn.pixabay.com/photo/2013/07/12/18/20/shoes-153310_1280.png" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://cdn.pixabay.com/photo/2013/07/12/18/20/shoes-153310_1280.png" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://cdn.pixabay.com/photo/2023/05/03/22/43/tennis-7968714_1280.png" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://cdn.pixabay.com/photo/2023/05/03/22/43/tennis-7968714_1280.png" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://cdn.pixabay.com/photo/2023/05/03/22/43/tennis-7968714_1280.png" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane" id="aba2">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://media.istockphoto.com/id/1307086567/pt/foto/generic-modern-suv-car-in-concrete-garage.jpg?s=2048x2048&w=is&k=20&c=j6E8DXBdYQm1grdvbcYB-5tHJnCIb7hKOfz56tU1B7Y=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://media.istockphoto.com/id/1307086567/pt/foto/generic-modern-suv-car-in-concrete-garage.jpg?s=2048x2048&w=is&k=20&c=j6E8DXBdYQm1grdvbcYB-5tHJnCIb7hKOfz56tU1B7Y=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://media.istockphoto.com/id/1307086567/pt/foto/generic-modern-suv-car-in-concrete-garage.jpg?s=2048x2048&w=is&k=20&c=j6E8DXBdYQm1grdvbcYB-5tHJnCIb7hKOfz56tU1B7Y=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://media.istockphoto.com/id/1307086567/pt/foto/generic-modern-suv-car-in-concrete-garage.jpg?s=2048x2048&w=is&k=20&c=j6E8DXBdYQm1grdvbcYB-5tHJnCIb7hKOfz56tU1B7Y=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://media.istockphoto.com/id/1307086567/pt/foto/generic-modern-suv-car-in-concrete-garage.jpg?s=2048x2048&w=is&k=20&c=j6E8DXBdYQm1grdvbcYB-5tHJnCIb7hKOfz56tU1B7Y=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://media.istockphoto.com/id/1307086567/pt/foto/generic-modern-suv-car-in-concrete-garage.jpg?s=2048x2048&w=is&k=20&c=j6E8DXBdYQm1grdvbcYB-5tHJnCIb7hKOfz56tU1B7Y=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content p-5">
+                    <div class="tab-pane" id="aba3">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://media.istockphoto.com/id/1307086567/pt/foto/generic-modern-suv-car-in-concrete-garage.jpg?s=2048x2048&w=is&k=20&c=j6E8DXBdYQm1grdvbcYB-5tHJnCIb7hKOfz56tU1B7Y=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://media.istockphoto.com/id/1307086567/pt/foto/generic-modern-suv-car-in-concrete-garage.jpg?s=2048x2048&w=is&k=20&c=j6E8DXBdYQm1grdvbcYB-5tHJnCIb7hKOfz56tU1B7Y=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://media.istockphoto.com/id/1307086567/pt/foto/generic-modern-suv-car-in-concrete-garage.jpg?s=2048x2048&w=is&k=20&c=j6E8DXBdYQm1grdvbcYB-5tHJnCIb7hKOfz56tU1B7Y=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://media.istockphoto.com/id/1307086567/pt/foto/generic-modern-suv-car-in-concrete-garage.jpg?s=2048x2048&w=is&k=20&c=j6E8DXBdYQm1grdvbcYB-5tHJnCIb7hKOfz56tU1B7Y=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://media.istockphoto.com/id/1307086567/pt/foto/generic-modern-suv-car-in-concrete-garage.jpg?s=2048x2048&w=is&k=20&c=j6E8DXBdYQm1grdvbcYB-5tHJnCIb7hKOfz56tU1B7Y=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img  src="https://media.istockphoto.com/id/1307086567/pt/foto/generic-modern-suv-car-in-concrete-garage.jpg?s=2048x2048&w=is&k=20&c=j6E8DXBdYQm1grdvbcYB-5tHJnCIb7hKOfz56tU1B7Y=" alt="">
+                                    <div class="card-body">
+                                        <h4>TENIS NIKE SHOCKS</h4>
+                                        <p>NIKE SHOKS 12 molas</p>
+                                        <a href="#" class="btn btn-primary">Mais Informações</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Entre em contato</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form class="fw-bold me-5">
+                            <div class="pb-3">
+                                <label for="nome" id="nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="pb-3">
+                                <label for="email" id="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" required>
+                            </div>
+                            <div class="pb-3">
+                                <label for="telefone" id="telefone" class="form-label">Telefone</label>
+                                <input type="tel" class="form-control">
+                            </div>
+                            <div class="pb-3">
+                                <label for="mensagem" id="mensagem" class="form-label">Mensagem</label>
+                                <textarea name="mensagem" id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success mt-4">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6 p-5">
+                        <div class="row">
+                            <h3 class="section-title">Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-title text-colored mt-4">Endereço
+                                <i class="bi bi-cursor-fill"></i>
+                            </h3>
+                            <p class="section-title">Rua Teste Exemplo n 145, Bairro Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<footer class="section-title text-center pt-5 pb-2">
+    &copy; Todos os direitos reservados - Paulo Roberto Lopes - 2024
+</footer>
+</html>
